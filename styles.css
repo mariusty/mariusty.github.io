@@ -1,0 +1,56 @@
+/* Reset styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  height: 100%;
+}
+
+/* Container to hold both sections */
+.container {
+  display: flex;
+  height: 100vh; /* Full viewport height */
+  width: 100%;
+}
+
+
+
+/* Section styling */
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1; 
+  height: 100%;
+  color: white;
+  font-size: 2.5rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* Default colors */
+.orange {
+  background-color: #ff6600;
+}
+
+.pink {
+  background-color: #ff0080;
+}
+
+/* Hover effects: Use custom colors */
+.orange:hover {
+  background-color: #1e90ff; /* Blue */
+}
+
+.pink:hover {
+  background-color: #32cd32; /* Green */
+}
+
+
+/* Mobile styles: Stack vertically for small screens */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+}
