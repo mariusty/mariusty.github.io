@@ -14,7 +14,10 @@ body, html {
   width: 100%;
 }
 
-
+.section h1 {
+  font-size: clamp(2rem, 5vw, 5rem); /* Responsive font size */
+  margin: 0;
+}
 
 /* Section styling */
 .section {
