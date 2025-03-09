@@ -34,20 +34,19 @@ body, html {
 
 /* Default colors */
 .orange {
-  background-color: #ff6600;
+  background-color: #9013FE;
 }
 
 .pink {
-  background-color: #ff0080;
+  background-color: #F5A623;
 }
 
-/* Hover effects: Use custom colors */
 .orange:hover {
-  background-color: #1e90ff; /* Blue */
+  background-color: #4A90E2; 
 }
 
 .pink:hover {
-  background-color: #32cd32; /* Green */
+  background-color: #7ED321; 
 }
 
 
