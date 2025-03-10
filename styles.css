@@ -53,12 +53,12 @@ body, html {
 
 #gradient::before {
   background: linear-gradient(135deg, var(--overlay-orange), var(--overlay-red));
-  animation: OpacityAnim 2s ease-in-out infinite alternate;
+  animation: OpacityAnim 3.5s ease-in-out infinite alternate;
 }
 
 #gradient::after {
   background: linear-gradient(135deg, var(--overlay-purple), var(--overlay-blue));
-  animation: OpacityAnim 2s ease-in-out infinite alternate-reverse;
+  animation: OpacityAnim 3.5s ease-in-out infinite alternate-reverse;
 }
 
 @keyframes OpacityAnim {
