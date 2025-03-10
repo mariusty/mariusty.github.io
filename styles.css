@@ -35,19 +35,19 @@ body, html {
 
 /* Section colors */
 .orange {
-  background-color: #9013FE;
+  background: linear-gradient(135deg, #F5A623, #D91E18); /* carrot-orange */
 }
 
 .pink {
-  background-color: #F5A623;
+  background: linear-gradient(135deg, #4A90E2, #9013FE); /* blue-purple */
 }
 
 .orange:hover {
-  background-color: #4A90E2; 
+  background: linear-gradient(135deg, #7ED321, #4A90E2); /* green-blue */
 }
 
 .pink:hover {
-  background-color: #7ED321; 
+  background: linear-gradient(135deg, #9013FE, #7ED321); /* carrot-orange */
 }
 
 /* SVG Overlay styling */
