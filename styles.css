@@ -11,6 +11,7 @@ body, html {
   box-sizing: border-box;
   font-family: "Raleway", sans-serif;
   height: 100%;
+  color: white;
 }
 
 /* Variables for gradient colors */
@@ -74,7 +75,6 @@ body, html {
   justify-content: center;
   align-items: center; /* Vertical & horizontal centering */
   text-align: center;
-  color: white;
   cursor: pointer;
   z-index: 2; /* Above gradient */
   width: 100%;
@@ -96,6 +96,16 @@ body, html {
   height: auto;
   z-index: 3;
   pointer-events: none;
+}
+
+.footer {
+  position: fixed; /* Use fixed instead of absolute for consistent positioning */
+  left: 50%; /* Centers the footer horizontally */
+  bottom: 1%; /* Keeps the footer at the bottom */
+  transform: translateX(-50%); /* Corrects the 50% positioning to truly center it */
+  z-index: 3;
+  text-align: center; /* Ensure text inside the footer is centered */
+  width: 100%; /* Makes sure the footer takes full width */
 }
 
 /* Responsive Design */
