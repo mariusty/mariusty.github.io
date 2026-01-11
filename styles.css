@@ -42,7 +42,7 @@ body, html {
 
 /* Gradient Background Animation */
 #gradient {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -61,12 +61,17 @@ body, html {
 
 #gradient::before {
   background: linear-gradient(135deg, var(--overlay-orange), var(--overlay-red));
-  opacity: 0.5;
+  animation: OpacityAnim 3.5s ease-in-out infinite alternate;
 }
 
 #gradient::after {
   background: linear-gradient(135deg, var(--overlay-purple), var(--overlay-blue));
-  opacity: 0.5;
+  animation: OpacityAnim 3.5s ease-in-out infinite alternate-reverse;
+}
+
+@keyframes OpacityAnim {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
 }
 
 /* Hero Content */
